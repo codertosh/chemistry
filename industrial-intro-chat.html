@@ -8,52 +8,44 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
             color: #333;
         }
         header {
-            background: #007acc;
-            color: #fff;
-            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
             text-align: center;
         }
-        main {
-            padding: 20px;
-            max-width: 900px;
-            margin: 0 auto;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
         section {
-            margin-bottom: 30px;
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         h1, h2, h3 {
-            color: #007acc;
-        }
-        h1 {
-            margin-top: 0;
+            color: #4CAF50;
         }
         ul {
-            list-style-type: square;
+            margin: 10px 0;
             padding-left: 20px;
         }
-        li {
+        ul li {
             margin-bottom: 10px;
         }
-        code {
-            background: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-            font-family: Consolas, monospace;
+        .highlight {
+            background-color: #e8f5e9;
+            padding: 5px;
+            border-left: 4px solid #4CAF50;
         }
         footer {
             text-align: center;
             padding: 10px;
-            background: #007acc;
-            color: #fff;
-            margin-top: 20px;
+            background: #333;
+            color: white;
         }
     </style>
 </head>
@@ -61,82 +53,81 @@
     <header>
         <h1>Industrial Chemistry Notes</h1>
     </header>
-    <main>
-        <section>
-            <h2>Industrial Revolution</h2>
-            <h3>Key Changes Introduced</h3>
-            <ul>
-                <li><strong>Transition from Hand Production to Machines:</strong> Manual processes replaced by mechanization, e.g., spinning jennies and power looms in textiles.</li>
-                <li><strong>New Chemical Manufacturing:</strong> Large-scale production of chemicals like sulfuric acid.</li>
-                <li><strong>Introduction of Steam and Water Power:</strong> Steam engines revolutionized industries and transportation.</li>
-                <li><strong>Mechanized Factory Systems:</strong> Assembly lines and centralized production increased efficiency.</li>
-            </ul>
-        </section>
 
-        <section>
-            <h2>Urea Production</h2>
-            <h3>Chemical Formula and Role</h3>
-            <ul>
-                <li><strong>Formula:</strong> <code>CO(NH<sub>2</sub>)<sub>2</sub></code></li>
-                <li><strong>Role:</strong> Essential in agriculture (fertilizer) and industries (plastics, adhesives).</li>
-            </ul>
+    <section>
+        <h2>Industrial Revolution</h2>
+        <h3>Key Changes Introduced</h3>
+        <ul>
+            <li><strong>Transition from Hand Production to Machines:</strong> Machines enabled mass production, replacing slow manual labor. <span class="highlight">Example:</span> Power looms revolutionized the textile industry.</li>
+            <li><strong>New Chemical Manufacturing Processes:</strong> Initiated large-scale production of chemicals like sulfuric acid.</li>
+            <li><strong>Introduction of Steam and Water Power:</strong> Steam engines powered factories and transportation, boosting trade.</li>
+            <li><strong>Mechanized Factory Systems:</strong> Factories streamlined production under one roof, increasing efficiency.</li>
+        </ul>
+    </section>
 
-            <h3>Manufacturing Process</h3>
-            <ol>
-                <li><strong>Raw Materials:</strong> Ammonia (<code>NH<sub>3</sub></code>) and Carbon Dioxide (<code>CO<sub>2</sub></code>).</li>
-                <li><strong>Reactions:</strong>
-                    <ul>
-                        <li>Formation of Ammonium Carbamate: <code>2NH<sub>3</sub> + CO<sub>2</sub> → NH<sub>2</sub>COONH<sub>4</sub></code></li>
-                        <li>Decomposition to Urea: <code>NH<sub>2</sub>COONH<sub>4</sub> → NH<sub>2</sub>CONH<sub>2</sub> + H<sub>2</sub>O</code></li>
-                    </ul>
-                </li>
-                <li><strong>Steps:</strong> Compression, Synthesis, Purification, Granulation.</li>
-            </ol>
+    <section>
+        <h2>Urea Production</h2>
+        <h3>Chemical Formula and Role</h3>
+        <p>Urea (CO(NH<sub>2</sub>)<sub>2</sub>) is a nitrogen-rich compound used primarily in fertilizers and as a precursor in industrial applications.</p>
 
-            <h3>Applications and Importance</h3>
-            <ul>
-                <li><strong>Fertilizer:</strong> Provides 46% nitrogen for crops like rice and wheat.</li>
-                <li><strong>Industrial Uses:</strong> Used in manufacturing plastics, adhesives, and coatings.</li>
-                <li><strong>Impact:</strong> Supports global agriculture and industrial development.</li>
-            </ul>
-        </section>
+        <h3>Manufacturing Process</h3>
+        <ul>
+            <li><strong>Raw Materials:</strong> Ammonia (NH<sub>3</sub>) and Carbon Dioxide (CO<sub>2</sub>).</li>
+            <li><strong>Reactions:</strong>
+                <ul>
+                    <li><span class="highlight">Formation of Ammonium Carbamate:</span> 2NH<sub>3</sub> + CO<sub>2</sub> → NH<sub>2</sub>COONH<sub>4</sub></li>
+                    <li><span class="highlight">Decomposition to Urea:</span> NH<sub>2</sub>COONH<sub>4</sub> → NH<sub>2</sub>CONH<sub>2</sub> + H<sub>2</sub>O</li>
+                </ul>
+            </li>
+            <li><strong>Steps:</strong>
+                <ol>
+                    <li>Synthesis: High-pressure reaction of NH<sub>3</sub> and CO<sub>2</sub>.</li>
+                    <li>Purification: Removal of biuret to improve yield.</li>
+                    <li>Granulation: Crystallization and shaping for easy application.</li>
+                </ol>
+            </li>
+        </ul>
 
-        <section>
-            <h2>Cement Production</h2>
-            <h3>Key Components</h3>
-            <ul>
-                <li><strong>Calcium Silicates:</strong> Provide strength.</li>
-                <li><strong>Calcium Aluminates:</strong> Influence setting time.</li>
-                <li><strong>Gypsum:</strong> Controls the rate of setting.</li>
-            </ul>
+        <h3>Applications and Importance</h3>
+        <ul>
+            <li><strong>Fertilizer:</strong> Urea provides 46% nitrogen, essential for crop growth. <span class="highlight">Example:</span> Used in rice and wheat farming.</li>
+            <li><strong>Industrial Uses:</strong> Raw material for plastics, adhesives, and resins. Also used in diesel exhaust fluid to reduce emissions.</li>
+        </ul>
+    </section>
 
-            <h3>Types of Cement</h3>
-            <ul>
-                <li><strong>Ordinary Portland Cement (OPC):</strong> Standard type used in construction.</li>
-                <li><strong>Rapid-Hardening Cement:</strong> Gains strength quickly; ideal for repairs.</li>
-                <li><strong>Low-Heat Cement:</strong> Used in dams to prevent cracking.</li>
-                <li><strong>White Cement:</strong> For decorative purposes.</li>
-            </ul>
+    <section>
+        <h2>Cement Production</h2>
+        <h3>Key Components</h3>
+        <ul>
+            <li>Calcium Silicates and Calcium Aluminates provide strength and set the cement.</li>
+            <li>Gypsum (5%) controls the setting time.</li>
+        </ul>
 
-            <h3>Manufacturing Process</h3>
-            <ol>
-                <li><strong>Extraction:</strong> Quarrying limestone and shale.</li>
-                <li><strong>Crushing and Milling:</strong> Grinding raw materials into powder.</li>
-                <li><strong>Preheating:</strong> Heating to 900°C to remove impurities.</li>
-                <li><strong>Clinkering:</strong> Heating in kilns at 1500°C to form clinker.</li>
-                <li><strong>Grinding:</strong> Mixing clinker with gypsum to form cement.</li>
-            </ol>
+        <h3>Types of Cement</h3>
+        <ul>
+            <li><strong>Ordinary Portland Cement (OPC):</strong> General-purpose cement.</li>
+            <li><strong>Rapid-Hardening Cement:</strong> Gains strength quickly; ideal for urgent projects.</li>
+            <li><strong>Low-Heat Cement:</strong> Used for mass concrete structures like dams.</li>
+        </ul>
 
-            <h3>Applications and Importance</h3>
-            <ul>
-                <li><strong>Construction:</strong> Used in buildings, bridges, and roads.</li>
-                <li><strong>Infrastructure:</strong> Essential for dams, tunnels, and other projects.</li>
-                <li><strong>Economic Role:</strong> Drives urbanization and industrial growth.</li>
-            </ul>
-        </section>
-    </main>
+        <h3>Manufacturing Process</h3>
+        <ol>
+            <li><strong>Extraction:</strong> Quarrying limestone and shale.</li>
+            <li><strong>Crushing and Milling:</strong> Grinding raw materials into fine powders.</li>
+            <li><strong>Preheating:</strong> Heating raw meal to remove impurities.</li>
+            <li><strong>Clinkering:</strong> Burning in kilns at 1500°C to form clinker.</li>
+            <li><strong>Grinding:</strong> Adding gypsum to control setting, then grinding to a fine powder.</li>
+        </ol>
+
+        <h3>Applications and Importance</h3>
+        <ul>
+            <li><strong>Construction:</strong> Foundations, roads, and bridges rely on cement for stability.</li>
+            <li><strong>Infrastructure:</strong> Dams, tunnels, and skyscrapers use specialized cement types.</li>
+        </ul>
+    </section>
+
     <footer>
-        <p>Industrial Chemistry Notes | Created for Reference and Study</p>
+        <p>&copy; 2025 Industrial Chemistry Notes</p>
     </footer>
 </body>
 </html>
